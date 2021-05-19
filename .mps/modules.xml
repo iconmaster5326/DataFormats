@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MPSProject">
+    <projectModules>
+      <modulePath path="$PROJECT_DIR$/languages/DataFormats.JSON/DataFormats.JSON.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/DataFormats.build/DataFormats.build.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/DataFormats.pluginSolution/DataFormats.pluginSolution.msd" folder="" />
+    </projectModules>
+  </component>
+</project>
