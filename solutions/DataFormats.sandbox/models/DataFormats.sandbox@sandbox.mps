@@ -4,14 +4,29 @@
   <languages>
     <use id="2fdbbbab-6246-467f-9ea8-a29ca57c4d11" name="DataFormats.JSON" version="0" />
     <use id="35085f04-cc10-4a4a-9db8-839f57a627f1" name="DataFormats.YAML" version="0" />
+    <use id="2f3ae98d-5634-444a-be6e-fc5df78d95f2" name="DataFormats.INI" version="0" />
   </languages>
   <imports />
   <registry>
+    <language id="2f3ae98d-5634-444a-be6e-fc5df78d95f2" name="DataFormats.INI">
+      <concept id="8110910640925668766" name="DataFormats.INI.structure.INIFile" flags="ng" index="1lKcJv">
+        <child id="8110910640925668772" name="entries" index="1lKcJ_" />
+        <child id="8110910640925668774" name="sections" index="1lKcJB" />
+      </concept>
+      <concept id="8110910640925668771" name="DataFormats.INI.structure.INISection" flags="ng" index="1lKcJy">
+        <property id="8110910640927175906" name="name" index="1lUsEz" />
+        <child id="8110910640925668777" name="entries" index="1lKcJC" />
+      </concept>
+      <concept id="8110910640925668770" name="DataFormats.INI.structure.INIEntry" flags="ng" index="1lKcJz">
+        <property id="8110910640925668781" name="key" index="1lKcJG" />
+        <property id="8110910640925668783" name="value" index="1lKcJI" />
+      </concept>
+    </language>
     <language id="35085f04-cc10-4a4a-9db8-839f57a627f1" name="DataFormats.YAML">
       <concept id="2259357639013627795" name="DataFormats.YAML.structure.Timestamp" flags="ng" index="1aCyTu">
         <property id="2259357639013627799" name="value" index="1aCyTq" />
       </concept>
-      <concept id="2259357639013157998" name="DataFormats.YAML.structure.File" flags="ng" index="1aELmz">
+      <concept id="2259357639013157998" name="DataFormats.YAML.structure.YAMLFile" flags="ng" index="1aELmz">
         <child id="2259357639013158002" name="values" index="1aELmZ" />
       </concept>
       <concept id="2259357639013563144" name="DataFormats.YAML.structure.Mapping" flags="ng" index="1aFib5">
@@ -49,7 +64,7 @@
       <concept id="3554165123731345214" name="DataFormats.JSON.structure.Array" flags="ng" index="1oh25B">
         <child id="3554165123731345217" name="values" index="1oh24o" />
       </concept>
-      <concept id="3554165123731344639" name="DataFormats.JSON.structure.File" flags="ng" index="1oh2aA">
+      <concept id="3554165123731344639" name="DataFormats.JSON.structure.JSONFile" flags="ng" index="1oh2aA">
         <child id="3554165123731344642" name="value" index="1oh2dr" />
       </concept>
       <concept id="3554165123731309675" name="DataFormats.JSON.structure.String" flags="ng" index="1ohaCN">
@@ -190,6 +205,35 @@
       </node>
       <node concept="1ohaCN" id="72fJ$4_b17D" role="1oh24o">
         <property role="1ohaCQ" value="y" />
+      </node>
+    </node>
+  </node>
+  <node concept="1lKcJv" id="72fJ$4_klHD">
+    <property role="TrG5h" value="testini" />
+    <node concept="1lKcJz" id="72fJ$4_pAQH" role="1lKcJ_">
+      <property role="1lKcJG" value="x" />
+      <property role="1lKcJI" value="3" />
+    </node>
+    <node concept="1lKcJy" id="72fJ$4_qBIh" role="1lKcJB">
+      <property role="1lUsEz" value="x" />
+      <node concept="1lKcJz" id="72fJ$4_qBIj" role="1lKcJC">
+        <property role="1lKcJG" value="a" />
+        <property role="1lKcJI" value="b" />
+      </node>
+      <node concept="1lKcJz" id="72fJ$4_qBIl" role="1lKcJC">
+        <property role="1lKcJG" value="c" />
+        <property role="1lKcJI" value="d" />
+      </node>
+    </node>
+    <node concept="1lKcJy" id="72fJ$4_qBIu" role="1lKcJB">
+      <property role="1lUsEz" value="y" />
+      <node concept="1lKcJz" id="72fJ$4_qBIz" role="1lKcJC">
+        <property role="1lKcJG" value="1" />
+        <property role="1lKcJI" value="2" />
+      </node>
+      <node concept="1lKcJz" id="72fJ$4_qBI_" role="1lKcJC">
+        <property role="1lKcJG" value="1" />
+        <property role="1lKcJI" value="[2]" />
       </node>
     </node>
   </node>

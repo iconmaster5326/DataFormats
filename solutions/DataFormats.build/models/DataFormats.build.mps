@@ -434,6 +434,63 @@
           </node>
         </node>
       </node>
+      <node concept="1E1JtD" id="72fJ$4_jst1" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="DataFormats.INI" />
+        <property role="3LESm3" value="2f3ae98d-5634-444a-be6e-fc5df78d95f2" />
+        <node concept="1BupzO" id="72fJ$4_jsuE" role="3bR31x">
+          <property role="3ZfqAx" value="models" />
+          <property role="1Hdu6h" value="true" />
+          <property role="1HemKv" value="true" />
+          <node concept="3LXTmp" id="72fJ$4_jsuF" role="1HemKq">
+            <node concept="55IIr" id="72fJ$4_jsuG" role="3LXTmr">
+              <node concept="2Ry0Ak" id="72fJ$4_jsuH" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="72fJ$4_jsuI" role="2Ry0An">
+                  <property role="2Ry0Am" value="DataFormats.INI" />
+                  <node concept="2Ry0Ak" id="72fJ$4_jsuJ" role="2Ry0An">
+                    <property role="2Ry0Am" value="models" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="72fJ$4_jsuK" role="3LXTna">
+              <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+            </node>
+          </node>
+        </node>
+        <node concept="3rtmxn" id="72fJ$4_jsuL" role="3bR31x">
+          <node concept="3LXTmp" id="72fJ$4_jsuM" role="3rtmxm">
+            <node concept="55IIr" id="72fJ$4_jsuN" role="3LXTmr">
+              <node concept="2Ry0Ak" id="72fJ$4_jsuO" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="72fJ$4_jsv4" role="2Ry0An">
+                  <property role="2Ry0Am" value="DataFormats.INI" />
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="72fJ$4_jsuQ" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+          </node>
+        </node>
+        <node concept="55IIr" id="72fJ$4_jst4" role="3LF7KH">
+          <node concept="2Ry0Ak" id="72fJ$4_jsuu" role="iGT6I">
+            <property role="2Ry0Am" value="languages" />
+            <node concept="2Ry0Ak" id="72fJ$4_jsuz" role="2Ry0An">
+              <property role="2Ry0Am" value="DataFormats.INI" />
+              <node concept="2Ry0Ak" id="72fJ$4_jsuC" role="2Ry0An">
+                <property role="2Ry0Am" value="DataFormats.INI.mpl" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="72fJ$4_jRR8" role="3bR37C">
+          <node concept="3bR9La" id="72fJ$4_jRRc" role="1SiIV1">
+            <ref role="3bR37D" node="1XqQsPlWOEY" resolve="DataFormats.core" />
+          </node>
+        </node>
+      </node>
       <node concept="1E1JtA" id="1XqQsPlWmJ_" role="2G$12L">
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="DataFormats.pluginSolution" />

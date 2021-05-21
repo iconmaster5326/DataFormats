@@ -2,6 +2,7 @@
 <project version="4">
   <component name="MPSProject">
     <projectModules>
+      <modulePath path="$PROJECT_DIR$/languages/DataFormats.INI/DataFormats.INI.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/DataFormats.JSON/DataFormats.JSON.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/DataFormats.YAML/DataFormats.YAML.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/DataFormats.core/DataFormats.core.mpl" folder="" />
