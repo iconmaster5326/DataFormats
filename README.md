@@ -4,6 +4,5 @@ DataFormats is a collection of languages for [JetBrains MPS](https://www.jetbrai
 
 # TODO
 
-* YAML files
 * TOML files
 * INI files

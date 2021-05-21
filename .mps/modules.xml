@@ -3,8 +3,11 @@
   <component name="MPSProject">
     <projectModules>
       <modulePath path="$PROJECT_DIR$/languages/DataFormats.JSON/DataFormats.JSON.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/DataFormats.YAML/DataFormats.YAML.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/DataFormats.core/DataFormats.core.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/DataFormats.build/DataFormats.build.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/DataFormats.pluginSolution/DataFormats.pluginSolution.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/DataFormats.sandbox/DataFormats.sandbox.msd" folder="" />
     </projectModules>
   </component>
 </project>

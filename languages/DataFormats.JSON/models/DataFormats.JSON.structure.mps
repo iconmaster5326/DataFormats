@@ -6,16 +6,11 @@
     <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
   <imports>
+    <import index="6sj1" ref="r:a8cd3376-1700-4c53-81fa-11b30970937b(DataFormats.core.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
-      <concept id="1082978164218" name="jetbrains.mps.lang.structure.structure.DataTypeDeclaration" flags="ng" index="AxPO6">
-        <property id="7791109065626895363" name="datatypeId" index="3F6X1D" />
-      </concept>
-      <concept id="1082978499127" name="jetbrains.mps.lang.structure.structure.ConstrainedDataTypeDeclaration" flags="ng" index="Az7Fb">
-        <property id="1083066089218" name="constraint" index="FLfZY" />
-      </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
@@ -78,13 +73,8 @@
     <node concept="1TJgyi" id="35iV__D5GNF" role="1TKVEl">
       <property role="IQ2nx" value="3554165123731344619" />
       <property role="TrG5h" value="value" />
-      <ref role="AX2Wp" node="35iV__D5GNE" resolve="float" />
+      <ref role="AX2Wp" to="6sj1:35iV__D5GNE" resolve="float" />
     </node>
-  </node>
-  <node concept="Az7Fb" id="35iV__D5GNE">
-    <property role="3F6X1D" value="3554165123731344618" />
-    <property role="TrG5h" value="float" />
-    <property role="FLfZY" value="-?(?:0|[1-9]\\d*)(?:\\.\\d+)?(?:[eE][+-]?\\d+)?" />
   </node>
   <node concept="1TIwiD" id="35iV__D5GNX">
     <property role="EcuMT" value="3554165123731344637" />
