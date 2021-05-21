@@ -266,7 +266,7 @@
     </language>
   </registry>
   <node concept="24kQdi" id="1XqQsPlWsLO">
-    <ref role="1XX52x" to="d25c:1XqQsPlWsLI" resolve="File" />
+    <ref role="1XX52x" to="d25c:1XqQsPlWsLI" resolve="YAMLFile" />
     <node concept="3EZMnI" id="1XqQsPlWsLX" role="2wV5jI">
       <node concept="l2Vlx" id="1XqQsPlWsLY" role="2iSdaV" />
       <node concept="3F0ifn" id="1XqQsPlWsLZ" role="3EZMnx">

@@ -73,7 +73,7 @@
     </language>
   </registry>
   <node concept="WtQ9Q" id="35iV__Dethj">
-    <ref role="WuzLi" to="d4h8:35iV__D5GNZ" resolve="File" />
+    <ref role="WuzLi" to="d4h8:35iV__D5GNZ" resolve="JSONFile" />
     <node concept="9MYSb" id="35iV__Dethk" role="33IsuW">
       <node concept="3clFbS" id="35iV__Dethl" role="2VODD2">
         <node concept="3clFbF" id="35iV__DetlW" role="3cqZAp">

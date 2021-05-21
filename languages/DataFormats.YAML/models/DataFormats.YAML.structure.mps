@@ -46,7 +46,7 @@
   </registry>
   <node concept="1TIwiD" id="1XqQsPlWsLI">
     <property role="EcuMT" value="2259357639013157998" />
-    <property role="TrG5h" value="File" />
+    <property role="TrG5h" value="YAMLFile" />
     <property role="34LRSv" value="YAML File" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
@@ -58,12 +58,12 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="values" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="1XqQsPlWsLL" resolve="Value" />
+      <ref role="20lvS9" node="1XqQsPlWsLL" resolve="YAMLValue" />
     </node>
   </node>
   <node concept="PlHQZ" id="1XqQsPlWsLL">
     <property role="EcuMT" value="2259357639013158001" />
-    <property role="TrG5h" value="Value" />
+    <property role="TrG5h" value="YAMLValue" />
   </node>
   <node concept="1TIwiD" id="1XqQsPlWsUT">
     <property role="EcuMT" value="2259357639013158585" />
@@ -71,7 +71,7 @@
     <property role="34LRSv" value="null" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="1XqQsPlWsUU" role="PzmwI">
-      <ref role="PrY4T" node="1XqQsPlWsLL" resolve="Value" />
+      <ref role="PrY4T" node="1XqQsPlWsLL" resolve="YAMLValue" />
     </node>
   </node>
   <node concept="1TIwiD" id="35iV__D5$hF">
@@ -87,7 +87,7 @@
       <ref role="PrY4T" to="tpck:hLJPP0O" resolve="IWrapper" />
     </node>
     <node concept="PrWs8" id="1XqQsPlXHyv" role="PzmwI">
-      <ref role="PrY4T" node="1XqQsPlWsLL" resolve="Value" />
+      <ref role="PrY4T" node="1XqQsPlWsLL" resolve="YAMLValue" />
     </node>
   </node>
   <node concept="1TIwiD" id="35iV__D5GWA">
@@ -103,7 +103,7 @@
       <ref role="PrY4T" to="tpck:hLJPP0O" resolve="IWrapper" />
     </node>
     <node concept="PrWs8" id="1XqQsPlXHy$" role="PzmwI">
-      <ref role="PrY4T" node="1XqQsPlWsLL" resolve="Value" />
+      <ref role="PrY4T" node="1XqQsPlWsLL" resolve="YAMLValue" />
     </node>
   </node>
   <node concept="1TIwiD" id="35iV__D5GND">
@@ -114,7 +114,7 @@
       <ref role="PrY4T" to="tpck:hLJPP0O" resolve="IWrapper" />
     </node>
     <node concept="PrWs8" id="1XqQsPlXHyC" role="PzmwI">
-      <ref role="PrY4T" node="1XqQsPlWsLL" resolve="Value" />
+      <ref role="PrY4T" node="1XqQsPlWsLL" resolve="YAMLValue" />
     </node>
     <node concept="1TJgyi" id="35iV__D5GNF" role="1TKVEl">
       <property role="IQ2nx" value="3554165123731344619" />
@@ -127,7 +127,7 @@
     <property role="TrG5h" value="Sequence" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="72fJ$4_61F4" role="PzmwI">
-      <ref role="PrY4T" node="1XqQsPlWsLL" resolve="Value" />
+      <ref role="PrY4T" node="1XqQsPlWsLL" resolve="YAMLValue" />
     </node>
     <node concept="1TJgyj" id="1XqQsPlXZG6" role="1TKVEi">
       <property role="IQ2ns" value="2259357639013563142" />
@@ -142,7 +142,7 @@
     <property role="TrG5h" value="Mapping" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="72fJ$4_61F1" role="PzmwI">
-      <ref role="PrY4T" node="1XqQsPlWsLL" resolve="Value" />
+      <ref role="PrY4T" node="1XqQsPlWsLL" resolve="YAMLValue" />
     </node>
     <node concept="1TJgyj" id="1XqQsPlXZGh" role="1TKVEi">
       <property role="IQ2ns" value="2259357639013563153" />
@@ -161,14 +161,14 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="key" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="1XqQsPlWsLL" resolve="Value" />
+      <ref role="20lvS9" node="1XqQsPlWsLL" resolve="YAMLValue" />
     </node>
     <node concept="1TJgyj" id="1XqQsPlXZGe" role="1TKVEi">
       <property role="IQ2ns" value="2259357639013563150" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="value" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="1XqQsPlWsLL" resolve="Value" />
+      <ref role="20lvS9" node="1XqQsPlWsLL" resolve="YAMLValue" />
     </node>
   </node>
   <node concept="1TIwiD" id="1XqQsPlXZGj">
@@ -180,10 +180,10 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="value" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="1XqQsPlWsLL" resolve="Value" />
+      <ref role="20lvS9" node="1XqQsPlWsLL" resolve="YAMLValue" />
     </node>
     <node concept="PrWs8" id="1XqQsPlXZGo" role="PzmwI">
-      <ref role="PrY4T" node="1XqQsPlWsLL" resolve="Value" />
+      <ref role="PrY4T" node="1XqQsPlWsLL" resolve="YAMLValue" />
     </node>
     <node concept="PrWs8" id="1XqQsPlXZGt" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -194,7 +194,7 @@
     <property role="TrG5h" value="Alias" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="1XqQsPlXZGy" role="PzmwI">
-      <ref role="PrY4T" node="1XqQsPlWsLL" resolve="Value" />
+      <ref role="PrY4T" node="1XqQsPlWsLL" resolve="YAMLValue" />
     </node>
     <node concept="1TJgyj" id="1XqQsPlXZG$" role="1TKVEi">
       <property role="IQ2ns" value="2259357639013563172" />
@@ -208,7 +208,7 @@
     <property role="TrG5h" value="Integer" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="1XqQsPlXZGM" role="PzmwI">
-      <ref role="PrY4T" node="1XqQsPlWsLL" resolve="Value" />
+      <ref role="PrY4T" node="1XqQsPlWsLL" resolve="YAMLValue" />
     </node>
     <node concept="PrWs8" id="1XqQsPlXZGT" role="PzmwI">
       <ref role="PrY4T" to="tpck:hLJPP0O" resolve="IWrapper" />
@@ -225,7 +225,7 @@
     <property role="34LRSv" value=".inf" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="1XqQsPlYfu9" role="PzmwI">
-      <ref role="PrY4T" node="1XqQsPlWsLL" resolve="Value" />
+      <ref role="PrY4T" node="1XqQsPlWsLL" resolve="YAMLValue" />
     </node>
   </node>
   <node concept="1TIwiD" id="1XqQsPlYfub">
@@ -234,7 +234,7 @@
     <property role="34LRSv" value="-.inf" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="1XqQsPlYfuc" role="PzmwI">
-      <ref role="PrY4T" node="1XqQsPlWsLL" resolve="Value" />
+      <ref role="PrY4T" node="1XqQsPlWsLL" resolve="YAMLValue" />
     </node>
   </node>
   <node concept="1TIwiD" id="1XqQsPlYfud">
@@ -243,7 +243,7 @@
     <property role="34LRSv" value=".NaN" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="1XqQsPlYfue" role="PzmwI">
-      <ref role="PrY4T" node="1XqQsPlWsLL" resolve="Value" />
+      <ref role="PrY4T" node="1XqQsPlWsLL" resolve="YAMLValue" />
     </node>
   </node>
   <node concept="1TIwiD" id="1XqQsPlYfug">
@@ -252,7 +252,7 @@
     <property role="34LRSv" value="-.NaN" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="1XqQsPlYfuh" role="PzmwI">
-      <ref role="PrY4T" node="1XqQsPlWsLL" resolve="Value" />
+      <ref role="PrY4T" node="1XqQsPlWsLL" resolve="YAMLValue" />
     </node>
   </node>
   <node concept="1TIwiD" id="1XqQsPlYfuj">
@@ -261,7 +261,7 @@
     <property role="34LRSv" value="timestamp" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="1XqQsPlYfuk" role="PzmwI">
-      <ref role="PrY4T" node="1XqQsPlWsLL" resolve="Value" />
+      <ref role="PrY4T" node="1XqQsPlWsLL" resolve="YAMLValue" />
     </node>
     <node concept="1TJgyi" id="1XqQsPlYfun" role="1TKVEl">
       <property role="IQ2nx" value="2259357639013627799" />
@@ -274,7 +274,7 @@
     <property role="TrG5h" value="Tag" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="1XqQsPlYfur" role="PzmwI">
-      <ref role="PrY4T" node="1XqQsPlWsLL" resolve="Value" />
+      <ref role="PrY4T" node="1XqQsPlWsLL" resolve="YAMLValue" />
     </node>
     <node concept="PrWs8" id="1XqQsPlYfuw" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -284,7 +284,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="value" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="1XqQsPlWsLL" resolve="Value" />
+      <ref role="20lvS9" node="1XqQsPlWsLL" resolve="YAMLValue" />
     </node>
   </node>
   <node concept="1TIwiD" id="72fJ$4_0Crc">
@@ -296,7 +296,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="value" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="1XqQsPlWsLL" resolve="Value" />
+      <ref role="20lvS9" node="1XqQsPlWsLL" resolve="YAMLValue" />
     </node>
     <node concept="PrWs8" id="72fJ$4_0Crf" role="PzmwI">
       <ref role="PrY4T" to="tpck:hLJPP0O" resolve="IWrapper" />

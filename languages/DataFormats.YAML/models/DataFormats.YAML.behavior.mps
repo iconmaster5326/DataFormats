@@ -128,7 +128,7 @@
     </language>
   </registry>
   <node concept="13h7C7" id="35iV__DcW06">
-    <ref role="13h7C2" to="d25c:1XqQsPlWsLL" resolve="Value" />
+    <ref role="13h7C2" to="d25c:1XqQsPlWsLL" resolve="YAMLValue" />
     <node concept="13hLZK" id="35iV__DcW07" role="13h7CW">
       <node concept="3clFbS" id="35iV__DcW08" role="2VODD2" />
     </node>
@@ -190,14 +190,14 @@
           <node concept="3cpWsn" id="72fJ$4_5ZQW" role="3cpWs9">
             <property role="TrG5h" value="value" />
             <node concept="3Tqbb2" id="72fJ$4_5ZT5" role="1tU5fm">
-              <ref role="ehGHo" to="d25c:1XqQsPlWsLL" resolve="Value" />
+              <ref role="ehGHo" to="d25c:1XqQsPlWsLL" resolve="YAMLValue" />
             </node>
             <node concept="2OqwBi" id="72fJ$4_60f4" role="33vP2m">
               <node concept="13iPFW" id="72fJ$4_604v" role="2Oq$k0" />
               <node concept="2Xjw5R" id="72fJ$4_60r3" role="2OqNvi">
                 <node concept="1xMEDy" id="72fJ$4_60r5" role="1xVPHs">
                   <node concept="chp4Y" id="72fJ$4_60uA" role="ri$Ld">
-                    <ref role="cht4Q" to="d25c:1XqQsPlWsLL" resolve="Value" />
+                    <ref role="cht4Q" to="d25c:1XqQsPlWsLL" resolve="YAMLValue" />
                   </node>
                 </node>
               </node>
@@ -327,14 +327,14 @@
           <node concept="3cpWsn" id="72fJ$4_623u" role="3cpWs9">
             <property role="TrG5h" value="value" />
             <node concept="3Tqbb2" id="72fJ$4_623v" role="1tU5fm">
-              <ref role="ehGHo" to="d25c:1XqQsPlWsLL" resolve="Value" />
+              <ref role="ehGHo" to="d25c:1XqQsPlWsLL" resolve="YAMLValue" />
             </node>
             <node concept="2OqwBi" id="72fJ$4_623w" role="33vP2m">
               <node concept="13iPFW" id="72fJ$4_623x" role="2Oq$k0" />
               <node concept="2Xjw5R" id="72fJ$4_623y" role="2OqNvi">
                 <node concept="1xMEDy" id="72fJ$4_623z" role="1xVPHs">
                   <node concept="chp4Y" id="72fJ$4_623$" role="ri$Ld">
-                    <ref role="cht4Q" to="d25c:1XqQsPlWsLL" resolve="Value" />
+                    <ref role="cht4Q" to="d25c:1XqQsPlWsLL" resolve="YAMLValue" />
                   </node>
                 </node>
               </node>

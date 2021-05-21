@@ -144,7 +144,7 @@
           <property role="TrG5h" value="keys" />
           <node concept="_YKpA" id="72fJ$4_d6qT" role="1tU5fm">
             <node concept="3Tqbb2" id="72fJ$4_d6r9" role="_ZDj9">
-              <ref role="ehGHo" to="d25c:1XqQsPlWsLL" resolve="Value" />
+              <ref role="ehGHo" to="d25c:1XqQsPlWsLL" resolve="YAMLValue" />
             </node>
           </node>
           <node concept="2OqwBi" id="72fJ$4_dch9" role="33vP2m">

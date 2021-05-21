@@ -120,7 +120,7 @@
     </language>
   </registry>
   <node concept="WtQ9Q" id="72fJ$4_ejvQ">
-    <ref role="WuzLi" to="d25c:1XqQsPlWsLI" resolve="File" />
+    <ref role="WuzLi" to="d25c:1XqQsPlWsLI" resolve="YAMLFile" />
     <node concept="9MYSb" id="72fJ$4_ejvR" role="33IsuW">
       <node concept="3clFbS" id="72fJ$4_ejvS" role="2VODD2">
         <node concept="3clFbF" id="72fJ$4_ej$v" role="3cqZAp">

@@ -99,7 +99,7 @@
     </language>
   </registry>
   <node concept="13h7C7" id="35iV__DcN6W">
-    <ref role="13h7C2" to="d4h8:35iV__D5GNY" resolve="Value" />
+    <ref role="13h7C2" to="d4h8:35iV__D5GNY" resolve="JSONValue" />
     <node concept="13hLZK" id="35iV__DcN6X" role="13h7CW">
       <node concept="3clFbS" id="35iV__DcN6Y" role="2VODD2" />
     </node>

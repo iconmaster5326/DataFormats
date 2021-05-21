@@ -318,7 +318,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="35iV__D5H3T">
-    <ref role="1XX52x" to="d4h8:35iV__D5GNZ" resolve="File" />
+    <ref role="1XX52x" to="d4h8:35iV__D5GNZ" resolve="JSONFile" />
     <node concept="3EZMnI" id="35iV__D5H3V" role="2wV5jI">
       <node concept="3F0ifn" id="35iV__D5H41" role="3EZMnx">
         <property role="3F0ifm" value="json file" />

@@ -57,7 +57,7 @@
       <ref role="PrY4T" to="tpck:hLJPP0O" resolve="IWrapper" />
     </node>
     <node concept="PrWs8" id="35iV__D5GO7" role="PzmwI">
-      <ref role="PrY4T" node="35iV__D5GNY" resolve="Value" />
+      <ref role="PrY4T" node="35iV__D5GNY" resolve="JSONValue" />
     </node>
   </node>
   <node concept="1TIwiD" id="35iV__D5GND">
@@ -68,7 +68,7 @@
       <ref role="PrY4T" to="tpck:hLJPP0O" resolve="IWrapper" />
     </node>
     <node concept="PrWs8" id="35iV__D5GOc" role="PzmwI">
-      <ref role="PrY4T" node="35iV__D5GNY" resolve="Value" />
+      <ref role="PrY4T" node="35iV__D5GNY" resolve="JSONValue" />
     </node>
     <node concept="1TJgyi" id="35iV__D5GNF" role="1TKVEl">
       <property role="IQ2nx" value="3554165123731344619" />
@@ -85,16 +85,16 @@
       <ref role="PrY4T" to="tpck:hLJPP0O" resolve="IWrapper" />
     </node>
     <node concept="PrWs8" id="35iV__D5GOg" role="PzmwI">
-      <ref role="PrY4T" node="35iV__D5GNY" resolve="Value" />
+      <ref role="PrY4T" node="35iV__D5GNY" resolve="JSONValue" />
     </node>
   </node>
   <node concept="PlHQZ" id="35iV__D5GNY">
     <property role="EcuMT" value="3554165123731344638" />
-    <property role="TrG5h" value="Value" />
+    <property role="TrG5h" value="JSONValue" />
   </node>
   <node concept="1TIwiD" id="35iV__D5GNZ">
     <property role="EcuMT" value="3554165123731344639" />
-    <property role="TrG5h" value="File" />
+    <property role="TrG5h" value="JSONFile" />
     <property role="19KtqR" value="true" />
     <property role="34LRSv" value="JSON File" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
@@ -106,7 +106,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="value" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="35iV__D5GNY" resolve="Value" />
+      <ref role="20lvS9" node="35iV__D5GNY" resolve="JSONValue" />
     </node>
   </node>
   <node concept="1TIwiD" id="35iV__D5GWA">
@@ -122,7 +122,7 @@
       <ref role="PrY4T" to="tpck:hLJPP0O" resolve="IWrapper" />
     </node>
     <node concept="PrWs8" id="35iV__D5GWI" role="PzmwI">
-      <ref role="PrY4T" node="35iV__D5GNY" resolve="Value" />
+      <ref role="PrY4T" node="35iV__D5GNY" resolve="JSONValue" />
     </node>
   </node>
   <node concept="1TIwiD" id="35iV__D5GWY">
@@ -130,14 +130,14 @@
     <property role="TrG5h" value="Array" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="35iV__D5GWZ" role="PzmwI">
-      <ref role="PrY4T" node="35iV__D5GNY" resolve="Value" />
+      <ref role="PrY4T" node="35iV__D5GNY" resolve="JSONValue" />
     </node>
     <node concept="1TJgyj" id="35iV__D5GX1" role="1TKVEi">
       <property role="IQ2ns" value="3554165123731345217" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="values" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="35iV__D5GNY" resolve="Value" />
+      <ref role="20lvS9" node="35iV__D5GNY" resolve="JSONValue" />
     </node>
   </node>
   <node concept="1TIwiD" id="35iV__D6hP1">
@@ -145,7 +145,7 @@
     <property role="TrG5h" value="Object" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="35iV__D6hP2" role="PzmwI">
-      <ref role="PrY4T" node="35iV__D5GNY" resolve="Value" />
+      <ref role="PrY4T" node="35iV__D5GNY" resolve="JSONValue" />
     </node>
     <node concept="1TJgyj" id="35iV__D6hPg" role="1TKVEi">
       <property role="IQ2ns" value="3554165123731496272" />
@@ -172,7 +172,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="value" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="35iV__D5GNY" resolve="Value" />
+      <ref role="20lvS9" node="35iV__D5GNY" resolve="JSONValue" />
     </node>
   </node>
 </model>
