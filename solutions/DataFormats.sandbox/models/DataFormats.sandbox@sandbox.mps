@@ -5,6 +5,7 @@
     <use id="2fdbbbab-6246-467f-9ea8-a29ca57c4d11" name="DataFormats.JSON" version="0" />
     <use id="35085f04-cc10-4a4a-9db8-839f57a627f1" name="DataFormats.YAML" version="0" />
     <use id="2f3ae98d-5634-444a-be6e-fc5df78d95f2" name="DataFormats.INI" version="0" />
+    <use id="b5e8799d-16fb-4417-b9aa-bd18f56f8a88" name="DataFormats.TOML" version="0" />
   </languages>
   <imports />
   <registry>
@@ -56,19 +57,77 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
+      <concept id="3717301156197626279" name="jetbrains.mps.lang.core.structure.BasePlaceholder" flags="ng" index="3DQ70j" />
+      <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
+        <property id="709746936026609031" name="linkId" index="3V$3ak" />
+        <property id="709746936026609029" name="role_DebugInfo" index="3V$3am" />
+      </concept>
+    </language>
+    <language id="b5e8799d-16fb-4417-b9aa-bd18f56f8a88" name="DataFormats.TOML">
+      <concept id="2259357639013627784" name="DataFormats.TOML.structure.Infinity" flags="ng" index="1aCyT5" />
+      <concept id="2259357639013563185" name="DataFormats.TOML.structure.Integer" flags="ng" index="1aFibX">
+        <property id="2259357639013563188" name="value" index="1aFibU" />
+      </concept>
+      <concept id="8110910640930307590" name="DataFormats.TOML.structure.EntryContainer" flags="ng" index="1l6o17">
+        <child id="8110910640930307591" name="entries" index="1l6o16" />
+      </concept>
+      <concept id="8110910640927575148" name="DataFormats.TOML.structure.TOMLFile" flags="ng" index="1lSN8H">
+        <child id="8110910640927575151" name="entries" index="1lSN8I" />
+        <child id="8110910640927575153" name="sections" index="1lSN8K" />
+      </concept>
+      <concept id="8110910640927575157" name="DataFormats.TOML.structure.TOMLSection" flags="ng" index="1lSN8O">
+        <child id="8110910640927575176" name="key" index="1lSNb9" />
+      </concept>
+      <concept id="8110910640927575156" name="DataFormats.TOML.structure.TOMLEntry" flags="ng" index="1lSN8P">
+        <child id="8110910640927575160" name="key" index="1lSN8T" />
+        <child id="8110910640927575162" name="value" index="1lSN8V" />
+      </concept>
+      <concept id="8110910640927575165" name="DataFormats.TOML.structure.Table" flags="ng" index="1lSN8W" />
+      <concept id="8110910640927575174" name="DataFormats.TOML.structure.ArrayTable" flags="ng" index="1lSNb7">
+        <child id="8110910640927575177" name="entries" index="1lSNb8" />
+      </concept>
+      <concept id="8110910640927575178" name="DataFormats.TOML.structure.String" flags="ng" index="1lSNbb">
+        <property id="8110910640927575188" name="value" index="1lSNbl" />
+      </concept>
+      <concept id="8110910640927575190" name="DataFormats.TOML.structure.BareKey" flags="ng" index="1lSNbn">
+        <property id="8110910640927575193" name="value" index="1lSNbo" />
+      </concept>
+      <concept id="8110910640927575195" name="DataFormats.TOML.structure.DottedKey" flags="ng" index="1lSNbq">
+        <child id="8110910640927575198" name="items" index="1lSNbv" />
+      </concept>
+      <concept id="3554165123731344617" name="DataFormats.TOML.structure.Float" flags="ng" index="1oh2aL">
+        <property id="3554165123731344619" name="value" index="1oh2aN" />
+      </concept>
+      <concept id="3554165123731496257" name="DataFormats.TOML.structure.InlineTable" flags="ng" index="1oiZco" />
     </language>
     <language id="2fdbbbab-6246-467f-9ea8-a29ca57c4d11" name="DataFormats.JSON">
       <concept id="3554165123731345214" name="DataFormats.JSON.structure.Array" flags="ng" index="1oh25B">
         <child id="3554165123731345217" name="values" index="1oh24o" />
       </concept>
+      <concept id="3554165123731345190" name="DataFormats.JSON.structure.Boolean" flags="ng" index="1oh25Z">
+        <property id="3554165123731345191" name="value" index="1oh25Y" />
+      </concept>
       <concept id="3554165123731344639" name="DataFormats.JSON.structure.JSONFile" flags="ng" index="1oh2aA">
         <child id="3554165123731344642" name="value" index="1oh2dr" />
       </concept>
+      <concept id="3554165123731344617" name="DataFormats.JSON.structure.Number" flags="ng" index="1oh2aM">
+        <property id="3554165123731344619" name="value" index="1oh2aO" />
+      </concept>
       <concept id="3554165123731309675" name="DataFormats.JSON.structure.String" flags="ng" index="1ohaCN">
         <property id="3554165123731309676" name="value" index="1ohaCQ" />
+      </concept>
+      <concept id="3554165123731496257" name="DataFormats.JSON.structure.Object" flags="ng" index="1oiZcp">
+        <child id="3554165123731496272" name="entries" index="1oiZc9" />
+      </concept>
+      <concept id="3554165123731496260" name="DataFormats.JSON.structure.ObjectEntry" flags="ng" index="1oiZct">
+        <child id="3554165123731496267" name="key" index="1oiZci" />
+        <child id="3554165123731496269" name="value" index="1oiZck" />
       </concept>
     </language>
   </registry>
@@ -199,12 +258,54 @@
   </node>
   <node concept="1oh2aA" id="1XqQsPlXsyd">
     <property role="TrG5h" value="testjson" />
-    <node concept="1oh25B" id="72fJ$4_b17v" role="1oh2dr">
-      <node concept="1ohaCN" id="72fJ$4_b17$" role="1oh24o">
-        <property role="1ohaCQ" value="x" />
+    <node concept="1oiZcp" id="72fJ$4_FfpT" role="1oh2dr">
+      <node concept="1oiZct" id="72fJ$4_FfpY" role="1oiZc9">
+        <node concept="1ohaCN" id="72fJ$4_FfpZ" role="1oiZci">
+          <property role="1ohaCQ" value="name" />
+        </node>
+        <node concept="1ohaCN" id="72fJ$4_Ffq4" role="1oiZck">
+          <property role="1ohaCQ" value="John Doe" />
+        </node>
       </node>
-      <node concept="1ohaCN" id="72fJ$4_b17D" role="1oh24o">
-        <property role="1ohaCQ" value="y" />
+      <node concept="1oiZct" id="72fJ$4_Ffq6" role="1oiZc9">
+        <node concept="1ohaCN" id="72fJ$4_Ffq7" role="1oiZci">
+          <property role="1ohaCQ" value="age" />
+        </node>
+        <node concept="1oh2aM" id="72fJ$4_Ffqf" role="1oiZck">
+          <property role="1oh2aO" value="32" />
+        </node>
+      </node>
+      <node concept="1oiZct" id="72fJ$4_Ffqh" role="1oiZc9">
+        <node concept="1ohaCN" id="72fJ$4_Ffqi" role="1oiZci">
+          <property role="1ohaCQ" value="address" />
+        </node>
+        <node concept="1oh25B" id="72fJ$4_Ffqt" role="1oiZck">
+          <node concept="1ohaCN" id="72fJ$4_Ffqy" role="1oh24o">
+            <property role="1ohaCQ" value="123 Fun Lane" />
+          </node>
+          <node concept="1ohaCN" id="72fJ$4_FfqB" role="1oh24o">
+            <property role="1ohaCQ" value="Testville, NA" />
+          </node>
+        </node>
+      </node>
+      <node concept="1oiZct" id="72fJ$4_Ffr2" role="1oiZc9">
+        <node concept="1ohaCN" id="72fJ$4_Ffr3" role="1oiZci">
+          <property role="1ohaCQ" value="verified" />
+        </node>
+        <node concept="1oh25Z" id="72fJ$4_Ffrn" role="1oiZck">
+          <property role="1oh25Y" value="false" />
+        </node>
+      </node>
+      <node concept="1oiZct" id="72fJ$4_FfqE" role="1oiZc9">
+        <node concept="1ohaCN" id="72fJ$4_FfqF" role="1oiZci">
+          <property role="1ohaCQ" value="options" />
+        </node>
+        <node concept="1oiZcp" id="72fJ$4_FfqV" role="1oiZck">
+          <node concept="3DQ70j" id="72fJ$4_FfqW" role="lGtFl">
+            <property role="3V$3am" value="entries" />
+            <property role="3V$3ak" value="2fdbbbab-6246-467f-9ea8-a29ca57c4d11/3554165123731496257/3554165123731496272" />
+          </node>
+        </node>
       </node>
     </node>
   </node>
@@ -234,6 +335,74 @@
       <node concept="1lKcJz" id="72fJ$4_qBI_" role="1lKcJC">
         <property role="1lKcJG" value="1" />
         <property role="1lKcJI" value="[2]" />
+      </node>
+    </node>
+  </node>
+  <node concept="1lSN8H" id="72fJ$4_sHzs">
+    <property role="TrG5h" value="testtoml" />
+    <node concept="1lSN8P" id="72fJ$4_sHzt" role="1lSN8I">
+      <node concept="1lSNbb" id="72fJ$4_EpWC" role="1lSN8T">
+        <property role="1lSNbl" value="hello world" />
+      </node>
+      <node concept="1lSNbb" id="72fJ$4_sHzA" role="1lSN8V">
+        <property role="1lSNbl" value="3" />
+      </node>
+    </node>
+    <node concept="1lSN8W" id="72fJ$4_CI37" role="1lSN8K">
+      <node concept="1lSNbn" id="72fJ$4_CI3f" role="1lSNb9">
+        <property role="1lSNbo" value="x" />
+      </node>
+      <node concept="1lSN8P" id="72fJ$4_CI3r" role="1l6o16">
+        <node concept="1lSNbn" id="72fJ$4_CI3s" role="1lSN8T">
+          <property role="1lSNbo" value="y" />
+        </node>
+        <node concept="1oiZco" id="72fJ$4_EpW1" role="1lSN8V">
+          <node concept="1lSN8P" id="72fJ$4_EpWh" role="1l6o16">
+            <node concept="1lSNbn" id="72fJ$4_EpWn" role="1lSN8T">
+              <property role="1lSNbo" value="b" />
+            </node>
+            <node concept="1aFibX" id="72fJ$4_Ffrr" role="1lSN8V">
+              <property role="1aFibU" value="0x1" />
+            </node>
+          </node>
+          <node concept="1lSN8P" id="72fJ$4_EpWr" role="1l6o16">
+            <node concept="1lSNbn" id="72fJ$4_EpW$" role="1lSN8T">
+              <property role="1lSNbo" value="c" />
+            </node>
+            <node concept="1oh2aL" id="72fJ$4_Ffrv" role="1lSN8V">
+              <property role="1oh2aN" value="2.3" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1lSNb7" id="72fJ$4_CI3c" role="1lSN8K">
+      <node concept="1lSNbq" id="72fJ$4_CI3h" role="1lSNb9">
+        <node concept="1lSNbn" id="72fJ$4_CI3j" role="1lSNbv">
+          <property role="1lSNbo" value="x" />
+        </node>
+        <node concept="1lSNbn" id="72fJ$4_CI3o" role="1lSNbv">
+          <property role="1lSNbo" value="y" />
+        </node>
+        <node concept="1lSNbq" id="72fJ$4_EpVR" role="1lSNbv">
+          <node concept="1lSNbn" id="72fJ$4_EpVV" role="1lSNbv">
+            <property role="1lSNbo" value="z" />
+          </node>
+        </node>
+      </node>
+      <node concept="1lSN8P" id="72fJ$4_EpVH" role="1lSNb8">
+        <node concept="1lSNbn" id="72fJ$4_EpVI" role="1lSN8T">
+          <property role="1lSNbo" value="a" />
+        </node>
+        <node concept="1lSNbb" id="72fJ$4_EpVZ" role="1lSN8V">
+          <property role="1lSNbl" value="a" />
+        </node>
+      </node>
+      <node concept="1lSN8P" id="72fJ$4_Ffrx" role="1lSNb8">
+        <node concept="1lSNbn" id="72fJ$4_FfrE" role="1lSN8T">
+          <property role="1lSNbo" value="b" />
+        </node>
+        <node concept="1aCyT5" id="72fJ$4_FfrG" role="1lSN8V" />
       </node>
     </node>
   </node>

@@ -215,7 +215,7 @@
       </node>
       <node concept="3_J27D" id="1XqQsPlVD8B" role="m$_w8">
         <node concept="3Mxwew" id="1XqQsPlVD8K" role="3MwsjC">
-          <property role="3MwjfP" value="1.0.0" />
+          <property role="3MwjfP" value="1.1.0" />
         </node>
       </node>
       <node concept="3_J27D" id="1XqQsPlVD8M" role="3s6cr7">
@@ -431,6 +431,78 @@
         <node concept="1SiIV0" id="1XqQsPlYJxm" role="3bR37C">
           <node concept="3bR9La" id="1XqQsPlYJx$" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+          </node>
+        </node>
+      </node>
+      <node concept="1E1JtD" id="72fJ$4_Fftr" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="DataFormats.TOML" />
+        <property role="3LESm3" value="b5e8799d-16fb-4417-b9aa-bd18f56f8a88" />
+        <node concept="1BupzO" id="72fJ$4_Ffwq" role="3bR31x">
+          <property role="3ZfqAx" value="models" />
+          <property role="1Hdu6h" value="true" />
+          <property role="1HemKv" value="true" />
+          <node concept="3LXTmp" id="72fJ$4_Ffwr" role="1HemKq">
+            <node concept="55IIr" id="72fJ$4_Ffws" role="3LXTmr">
+              <node concept="2Ry0Ak" id="72fJ$4_Ffwt" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="72fJ$4_Ffwu" role="2Ry0An">
+                  <property role="2Ry0Am" value="DataFormats.TOML" />
+                  <node concept="2Ry0Ak" id="72fJ$4_Ffwv" role="2Ry0An">
+                    <property role="2Ry0Am" value="models" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="72fJ$4_Ffww" role="3LXTna">
+              <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+            </node>
+          </node>
+        </node>
+        <node concept="3rtmxn" id="72fJ$4_Ffwx" role="3bR31x">
+          <node concept="3LXTmp" id="72fJ$4_Ffwy" role="3rtmxm">
+            <node concept="55IIr" id="72fJ$4_Ffwz" role="3LXTmr">
+              <node concept="2Ry0Ak" id="72fJ$4_Ffw$" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="72fJ$4_FfwO" role="2Ry0An">
+                  <property role="2Ry0Am" value="DataFormats.TOML" />
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="72fJ$4_FfwA" role="3LXTna">
+              <property role="3qWCbO" value="icons/**, resources/**" />
+            </node>
+          </node>
+        </node>
+        <node concept="55IIr" id="72fJ$4_Fftu" role="3LF7KH">
+          <node concept="2Ry0Ak" id="72fJ$4_Ffvc" role="iGT6I">
+            <property role="2Ry0Am" value="languages" />
+            <node concept="2Ry0Ak" id="72fJ$4_Ffvh" role="2Ry0An">
+              <property role="2Ry0Am" value="DataFormats.TOML" />
+              <node concept="2Ry0Ak" id="72fJ$4_Ffvm" role="2Ry0An">
+                <property role="2Ry0Am" value="DataFormats.TOML.mpl" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="72fJ$4_Ffvq" role="3bR37C">
+          <node concept="3bR9La" id="72fJ$4_Ffvu" role="1SiIV1">
+            <ref role="3bR37D" node="1XqQsPlWOEY" resolve="DataFormats.core" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="72fJ$4_Ffv_" role="3bR37C">
+          <node concept="3bR9La" id="72fJ$4_FfvH" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="72fJ$4_FfvQ" role="3bR37C">
+          <node concept="3bR9La" id="72fJ$4_Ffw0" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbIZ" resolve="MPS.Editor" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="72fJ$4_Ffwb" role="3bR37C">
+          <node concept="3bR9La" id="72fJ$4_Ffwn" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:3MI1gu0QouH" resolve="jetbrains.mps.editor.runtime" />
           </node>
         </node>
       </node>
