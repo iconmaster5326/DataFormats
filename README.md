@@ -1,5 +1,7 @@
 # DataFormats
 
+[![open in skadi cloud](https://skadi.cloud/assets/skadi-badge.svg)](https://skadi.cloud/open#https://github.com/iconmaster5326/DataFormats.git)
+
 DataFormats is a collection of languages for [JetBrains MPS](https://www.jetbrains.com/mps/) that allow you to target
 and generate [JSON](https://www.json.org/json-en.html), [YAML](https://yaml.org/), [TOML](https://toml.io/en/), and
 [INI](https://en.wikipedia.org/wiki/INI_file) files.
